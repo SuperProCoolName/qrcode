@@ -4,13 +4,16 @@ Generate QR Code.
 To install all necessary modules run this code in your command line: 
 
 ```bash
-pip install pyzbar, PIL, validators, qrcode
+pip install pyzbar, pillow, validators, qrcode
 ```
 
 # Usage
-Download source code via `Releases` tab.
+Download source code via using console
+```
+git clone https://github.com/SuperProCoolName/qrcode.git
+```
 
-To set text or link to generate QR Code simply run the program.
+To set text or link to generate QR Code simply run `qr_code.py`.
 
 # Advanced usage
 Set data in quotes to your needed text or link

@@ -20,7 +20,7 @@ def main():
         img.save("QRCode_Image.png")
         valid = validators.url(data)
         decodeQR = decode(Image.open('QRCode_Image.png'))
-        print(f'Your encoded the following text into your QRCode: {decodeQR[0].data.decode("ascii")}')
+        print(f'You encoded the following text into your QRCode: {decodeQR[0].data.decode("ascii")}')
         if valid:
             answer = input(f'Do you wish to open your link in browser (Y/n)? ')
             if answer.lower() == 'y':
